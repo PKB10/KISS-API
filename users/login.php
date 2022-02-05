@@ -30,7 +30,6 @@
 	require(basename(dirname(__FILE__)). '/sensitive/credentials.php'); // Include functions for sensitive data (eg. any keys)
     require(basename(dirname(__FILE__)). '/sensitive/b_crypt.php'); // Include functions for encryption/decryption operations
     require(basename(dirname(__FILE__)). '/general/string_functions.php'); // Include functions for string operations
-	require(basename(dirname(__FILE__)). '/general/token_data.php'); // Include token class
     require(basename(dirname(__FILE__)). '/general/operation_data.php'); // Include functions for request operations
     require(basename(dirname(__FILE__)). '/general/log_error.php'); // Include functions for logging request errors
 
@@ -280,5 +279,5 @@
     // Send JSON response
     echo json_encode(($operation->response));
 
-    
+    //Done! :)
 ?>
